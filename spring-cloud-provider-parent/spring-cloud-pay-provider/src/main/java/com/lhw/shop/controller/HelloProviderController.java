@@ -1,5 +1,6 @@
 package com.lhw.shop.controller;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,10 +13,15 @@ import javax.security.auth.login.CredentialNotFoundException;
  */
 
 @RestController
-public class helloNacosController {
+public class HelloProviderController {
 
-    @RequestMapping(value = "/helloNacos")
-     public String helloNacos(){
+     @RequestMapping(value = "/helloNacos")
+      public String helloNacos(){
          return "hello nacos";
+     }
+
+     @RequestMapping(value = "/feign")
+     public String feign(){
+        return "provider controller";
      }
 }
