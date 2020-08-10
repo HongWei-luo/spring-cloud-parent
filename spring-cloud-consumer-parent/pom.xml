@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-cloud-comsumer-parent</artifactId>
+    <artifactId>spring-cloud-consumer-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-comsumer-parent</name>
+    <name>spring-cloud-consumer-parent</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
@@ -18,7 +18,7 @@
         <java.version>1.8</java.version>
     </properties>
     <modules>
-        <module>spring-cloud-pay-comsumer</module>
+        <module>spring-cloud-pay-consumer</module>
     </modules>
 
     <build>

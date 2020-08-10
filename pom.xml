@@ -18,6 +18,7 @@
     <modules>
         <module>spring-cloud-dependencies</module>
         <module>spring-cloud-provider-parent</module>
+        <module>spring-cloud-consumer-parent</module>
     </modules>
 
     <properties>
