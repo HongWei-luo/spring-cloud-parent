@@ -1,7 +1,7 @@
 package com.lhw.shop.controller;
 
-import com.lhw.shop.service.FeignService;
-import org.springframework.web.bind.annotation.PathVariable;
+import com.lhw.shop.feign.FeignService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,7 +23,7 @@ public class HelloConsumerController {
        return "helloConsumer" ;
     }
 
-    @RequestMapping(value = "/feign")
+    @GetMapping(value = "/feign")
     public String feign(){
         return feignService.feign();
     }

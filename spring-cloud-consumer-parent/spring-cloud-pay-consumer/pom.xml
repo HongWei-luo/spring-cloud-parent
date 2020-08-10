@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.lhw</groupId>
-        <artifactId>spring-cloud-comsumer-parent</artifactId>
+        <artifactId>spring-cloud-consumer-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>spring-cloud-pay-comsumer</artifactId>
+    <artifactId>spring-cloud-pay-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-pay-comsumer</name>
+    <name>spring-cloud-pay-consumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -54,6 +54,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
+        <!--sentinel-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>

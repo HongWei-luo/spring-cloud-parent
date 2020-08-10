@@ -1,5 +1,7 @@
 package com.lhw.shop.controller;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,9 +21,11 @@ public class HelloProviderController {
       public String helloNacos(){
          return "hello nacos";
      }
+    @Value("${server.port}")
+    private String serverPort;
 
-     @RequestMapping(value = "/feign")
+    @GetMapping(value = "/feign")
      public String feign(){
-        return "provider controller";
+        return "provider controller feign " + serverPort;
      }
 }
