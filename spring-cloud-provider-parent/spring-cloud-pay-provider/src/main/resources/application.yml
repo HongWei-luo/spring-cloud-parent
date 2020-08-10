@@ -1,20 +1,27 @@
 spring:
   application:
-    # ·şÎñÃû
+    # æœåŠ¡å
     name: spring-cloud-pay-provider
   cloud:
     nacos:
       discovery:
-        # ·şÎñ×¢²áÖĞĞÄ
+        # nacos
         server-addr: 127.0.0.1:8848
-
+    # æœåŠ¡æ²»ç†
+    sentinel:
+      transport:
+        dashboard: localhost:8888
 server:
-  # ·şÎñ¶Ë¿Ú
+  # ç«¯å£å·
   port: 8070
 
 management:
-  # ¶Ëµã¼ì²é£¨½¡¿µ¼ì²é£©
+  # å¥åº·æ£€æŸ¥
   endpoints:
     web:
       exposure:
         include: "*"
+
+logging:
+  file: springbootdemo.log
+  path: 'D:\work\code\spring-cloud-parent\log\ '
