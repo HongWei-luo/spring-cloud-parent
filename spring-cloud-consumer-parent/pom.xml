@@ -19,6 +19,8 @@
     </properties>
     <modules>
         <module>spring-cloud-pay-consumer</module>
+        <module>spring-dubbo-consumer</module>
+        <module>spring-security-oauth-server</module>
     </modules>
 
     <build>

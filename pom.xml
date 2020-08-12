@@ -117,7 +117,6 @@
             </build>
         </profile>
     </profiles>
-
     <repositories>
         <repository>
             <id>spring-milestone</id>
@@ -125,6 +124,7 @@
             <url>https://repo.spring.io/milestone</url>
             <snapshots>
                 <enabled>false</enabled>
+                <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
         <repository>
@@ -133,10 +133,10 @@
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
                 <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
-
     <pluginRepositories>
         <pluginRepository>
             <id>spring-milestone</id>
@@ -144,6 +144,7 @@
             <url>https://repo.spring.io/milestone</url>
             <snapshots>
                 <enabled>false</enabled>
+                <updatePolicy>always</updatePolicy>
             </snapshots>
         </pluginRepository>
         <pluginRepository>
@@ -152,7 +153,9 @@
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
                 <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 </project>
