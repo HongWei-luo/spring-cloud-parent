@@ -17,15 +17,16 @@ import javax.security.auth.login.CredentialNotFoundException;
 @RestController
 public class HelloProviderController {
 
-     @RequestMapping(value = "/helloNacos")
-      public String helloNacos(){
-         return "hello nacos";
-     }
+    @RequestMapping(value = "/helloNacos")
+    public String helloNacos() {
+        return "hello nacos";
+    }
+
     @Value("${server.port}")
     private String serverPort;
 
     @GetMapping(value = "/feign")
-     public String feign(){
+    public String feign() {
         return "provider controller feign " + serverPort;
-     }
+    }
 }
