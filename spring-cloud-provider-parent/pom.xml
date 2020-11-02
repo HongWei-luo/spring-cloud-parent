@@ -18,8 +18,6 @@
 
     <modules>
         <module>spring-cloud-pay-provider</module>
-        <module>spring-dubbo-provider-api</module>
-        <module>spring-dubbo-provider-service</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

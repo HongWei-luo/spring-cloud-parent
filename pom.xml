@@ -19,6 +19,10 @@
         <module>spring-cloud-dependencies</module>
         <module>spring-cloud-provider-parent</module>
         <module>spring-cloud-consumer-parent</module>
+        <module>spring-cloud-test</module>
+        <module>spring-cloud-dubbo-provider</module>
+        <module>spring-cloud-dobbo-api</module>
+        <module>spring-cloud-dubbo-consumer</module>
     </modules>
 
     <properties>
