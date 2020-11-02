@@ -23,6 +23,7 @@
         <module>spring-cloud-dubbo-provider</module>
         <module>spring-cloud-dobbo-api</module>
         <module>spring-cloud-dubbo-consumer</module>
+        <module>spring-cloud-data</module>
     </modules>
 
     <properties>
