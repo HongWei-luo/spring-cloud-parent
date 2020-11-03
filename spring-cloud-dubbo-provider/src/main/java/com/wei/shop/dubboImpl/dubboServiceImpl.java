@@ -2,6 +2,7 @@ package com.wei.shop.dubboImpl;
 
 
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.wei.shop.api.IDubboService;
 import com.wei.shop.dao.UserMapper;
 import com.wei.shop.domain.User;
@@ -9,6 +10,7 @@ import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Value;
 
 import javax.annotation.Resource;
+import javax.management.Query;
 
 /**
  * @author ：lhw
@@ -29,6 +31,8 @@ public class dubboServiceImpl implements IDubboService {
 
     @Override
     public User testMybatisPlus(String id) {
-        return userMapper.selectByPrimaryKey(Integer.parseInt(id));
+        QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
+        userQueryWrapper.eq("u_id",id);
+        return userMapper.selectOne(userQueryWrapper);
     }
 }
