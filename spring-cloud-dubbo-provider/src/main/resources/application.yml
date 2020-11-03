@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: spring-cloud-dubbo-provider
+  main:
+    allow-bean-definition-overriding: true
+  server:
+    port: 8090
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/secondschool?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+
+
+dubbo:
+  scan:
+    base-packages: com.wei.shop.dubboImpl
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1:8848
+
+management:
+  # ½¡¿µ¼ì²é
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.wei.shop.domain.User
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      #ÍÕ·åÏÂ»®Ïß×ª»»
+      column-underline: true
+      #Âß¼­É¾³ýÅäÖÃ
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      db-type: mysql
+    refresh: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
