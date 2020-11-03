@@ -1,6 +1,7 @@
 package com.wei.shop.dao;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.wei.shop.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 
