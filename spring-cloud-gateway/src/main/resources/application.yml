@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    # ������
+    name: spring-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        register-enabled: false
+        server-addr: localhost:8848
+
+
+    gateway:
+      discovery:
+        locator:
+          # ����ʹ�÷������ķ�ʽ���ʣ�����
+          #   http://localhost:9090/alibaba-consumer/all/user?origin=abc
+          #   http://localhost:9090/alibaba-provider/user
+          enabled: true
