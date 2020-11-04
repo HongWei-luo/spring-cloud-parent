@@ -4,7 +4,7 @@
   <resultMap id="BaseResultMap" type="com.wei.shop.domain.User">
     <!--@mbg.generated-->
     <!--@Table user-->
-    <id column="u_id" jdbcType="INTEGER" property="uId" />
+    <id column="id" jdbcType="INTEGER" property="Id" />
     <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="sex" jdbcType="VARCHAR" property="sex" />
@@ -16,21 +16,21 @@
   </resultMap>
   <sql id="Base_Column_List">
     <!--@mbg.generated-->
-    u_id, username, `password`, sex, hobbys, phone, email, address, is_delete
+    id, username, `password`, sex, hobbys, phone, email, address, is_delete
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     <!--@mbg.generated-->
     select 
     <include refid="Base_Column_List" />
     from user
-    where u_id = #{uId,jdbcType=INTEGER}
+    where id = #{Id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     <!--@mbg.generated-->
     delete from user
-    where u_id = #{uId,jdbcType=INTEGER}
+    where id = #{Id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" keyColumn="u_id" keyProperty="uId" parameterType="com.wei.shop.domain.User" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="id" keyProperty="Id" parameterType="com.wei.shop.domain.User" useGeneratedKeys="true">
     <!--@mbg.generated-->
     insert into user (username, `password`, sex, 
       hobbys, phone, email, 
@@ -39,7 +39,7 @@
       #{hobbys,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
       #{address,jdbcType=VARCHAR}, #{isDelete,jdbcType=TINYINT})
   </insert>
-  <insert id="insertSelective" keyColumn="u_id" keyProperty="uId" parameterType="com.wei.shop.domain.User" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="Id" parameterType="com.wei.shop.domain.User" useGeneratedKeys="true">
     <!--@mbg.generated-->
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -124,7 +124,7 @@
         is_delete = #{isDelete,jdbcType=TINYINT},
       </if>
     </set>
-    where u_id = #{uId,jdbcType=INTEGER}
+    where id = #{Id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.wei.shop.domain.User">
     <!--@mbg.generated-->
@@ -137,6 +137,6 @@
       email = #{email,jdbcType=VARCHAR},
       address = #{address,jdbcType=VARCHAR},
       is_delete = #{isDelete,jdbcType=TINYINT}
-    where u_id = #{uId,jdbcType=INTEGER}
+    where id = #{Id,jdbcType=INTEGER}
   </update>
 </mapper>

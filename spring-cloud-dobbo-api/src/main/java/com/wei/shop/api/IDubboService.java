@@ -7,4 +7,6 @@ public interface IDubboService {
     String helloDubbo(String s);
 
     User testMybatisPlus(String id);
+
+    User testMybatisPlus2(String id);
 }

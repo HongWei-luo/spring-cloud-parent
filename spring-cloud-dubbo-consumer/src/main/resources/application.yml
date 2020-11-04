@@ -8,7 +8,7 @@ spring:
       discovery:
         # nacos
         server-addr: 127.0.0.1:8848
-    # ·şÎñÖÎÀí
+    # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     sentinel:
       transport:
         dashboard: localhost:8888
@@ -38,3 +38,10 @@ management:
     web:
       exposure:
         include: "*"
+
+
+      #è¯»å–æ—¥å¿—é…ç½®æ–‡ä»¶
+logging:
+#  config: classpath:Slf4j.xml
+  #æ—¥å¿—è¾“å‡ºè·¯å¾„
+  path: D:\work\code\spring-cloud-parent\spring-cloud-dubbo-consumer\log

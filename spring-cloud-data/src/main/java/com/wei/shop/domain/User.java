@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class User implements Serializable {
     private static final long serialVersionUID = 8905103293894332090L;
     @ApiModelProperty(value="null")
-    private Integer uId;
+    private Integer Id;
 
     /**
     * 用户名
