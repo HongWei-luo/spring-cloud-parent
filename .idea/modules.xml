@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-parent/spring-cloud-consumer-parent.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-parent/spring-cloud-consumer-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-data/spring-cloud-data.iml" filepath="$PROJECT_DIR$/spring-cloud-data/spring-cloud-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-dependencies/spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dobbo-api/spring-cloud-dobbo-api.iml" filepath="$PROJECT_DIR$/spring-cloud-dobbo-api/spring-cloud-dobbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-consumer/spring-cloud-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-consumer/spring-cloud-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dubbo-provider/spring-cloud-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-dubbo-provider/spring-cloud-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-parent.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-parent/spring-cloud-pay-consumer/spring-cloud-pay-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-parent/spring-cloud-pay-consumer/spring-cloud-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-pay-provider/spring-cloud-pay-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-pay-provider/spring-cloud-pay-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-provider-parent.iml" filepath="$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-provider-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-shiro/spring-cloud-shiro.iml" filepath="$PROJECT_DIR$/spring-cloud-shiro/spring-cloud-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" filepath="$PROJECT_DIR$/spring-cloud-test/spring-cloud-test.iml" />
+    </modules>
+  </component>
+</project>

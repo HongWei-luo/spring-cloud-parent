@@ -17,19 +17,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @description：描述
  */
 @Configuration
+@EnableSwagger2
 public class Swagger2Config {
 
     @Bean
     public Docket createRestApi(){
-        //版本类型是swagger2
-        return new Docket(DocumentationType.SWAGGER_2)
-                .apiInfo(apiInfo())
+        return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.wei.shop.controller"))
-                .paths(PathSelectors.any())
-                //加了ApiOperation注解的类，才生成接口文档
-                .apis(RequestHandlerSelectors.withMethodAnnotation(ApiOperation.class))
-                .build();
+                .apis(RequestHandlerSelectors.any())
+                .paths(PathSelectors.any()).build();
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()

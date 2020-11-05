@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b7e50d5-030f-457c-8bc6-87bbdec7f9d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-dubbo-consumer/src/main/java/com/wei/shop/SpringCloudDubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-dubbo-consumer/src/main/java/com/wei/shop/SpringCloudDubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-dubbo-consumer/src/main/java/com/wei/shop/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-dubbo-consumer/src/main/java/com/wei/shop/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-dubbo-provider/src/main/java/com/wei/shop/dubboImpl/dubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-dubbo-provider/src/main/java/com/wei/shop/dubboImpl/dubboServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-pay-provider/src/main/java/com/lhw/shop/service/impl/FeignServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-provider-parent/spring-cloud-pay-provider/src/main/java/com/lhw/shop/service/impl/FeignServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="secondschool@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="secondschool@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="secondschool@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="secondschool: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="secondschool@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="secondschool: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-cloud-parent" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="edc4e0613724c784a19531f974072f5a83ec4bf6" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4b151fb1-71c1-41cf-8e18-294ecb114cdd" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\Java-tools\apache-maven-3.6.1\apache-maven-3.6.1\repository" />
+        <option name="userSettingsFile" value="D:\work\Java-tools\apache-maven-3.6.1\apache-maven-3.6.1\conf\settings -副本.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1YHXzuWByWlNs13nbc05TpU0eRq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-cloud-provider-parent/spring-dubbo-provider-api/src/main/java/com/lhw/shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cloud-dubbo-provider/src/main/java/com/wei/shop/dao" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\code\spring-test01\schoolShop-gateway" />
+      <recent name="D:\work\code\spring-test01\schoolShop-services-provider-parent" />
+      <recent name="D:\work\code\spring-test01\schoolShop-business-parent" />
+      <recent name="D:\work\code\spring-test01\schoolShop-dependencies" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wei.shop.domain" />
+      <recent name="com.wei.shop.controller" />
+      <recent name="com.wei.shop.api" />
+      <recent name="com.wei.shop.dubboImpl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\code\spring-cloud-parent\log" />
+      <recent name="D:\work\code\spring-cloud-parent\spring-cloud-provider-parent\spring-cloud-pay-provider" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudDubboConsumerApplication">
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.demo.test.test1" />
+      <module name="spring-cloud-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.demo.test.test2" />
+      <module name="spring-cloud-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wei.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.wei.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wei.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.wei.demo.DemoApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="schoolShop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="schoolShop" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-dubbo-provider-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.DubboApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="schoolShop-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pay-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhw.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-consumer-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-pay-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhw.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudDobboApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-dobbo-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudDobboApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudDubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudDubboConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudDubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudDubboProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPayProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="spring-cloud-pay-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.SpringCloudPayProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudPayProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-pay-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.springcloudpayprovider.SpringCloudPayProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudProviderParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-provider-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.springcloudproviderparent.SpringCloudProviderParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.shop.SpringCloudShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-dubbo-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.SpringDubboConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDubboProviderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-dubbo-provider-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.SpringDubboProviderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityOauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-security-oauth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.SpringSecurityOauthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SptringDubboProviderApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-dubbo-provider-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lhw.shop.SptringDubboProviderApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.test2" />
+      <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.DemoApplicationTests.test1" />
+      <item itemvalue="Spring Boot.SpringCloudDubboProviderApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ShopApplication" />
+      <item itemvalue="Spring Boot.SpringCloudPayProviderApplication" />
+      <item itemvalue="Spring Boot.SpringCloudPayProviderApplication (1)" />
+      <item itemvalue="Spring Boot.SpringCloudProviderParentApplication" />
+      <item itemvalue="Spring Boot.DubboApiApplication" />
+      <item itemvalue="Spring Boot.SpringDubboProviderServiceApplication" />
+      <item itemvalue="Spring Boot.SpringDubboConsumerApplication" />
+      <item itemvalue="Spring Boot.SptringDubboProviderApiApplication" />
+      <item itemvalue="Spring Boot.SpringSecurityOauthServerApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudDubboConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudDataApplication" />
+      <item itemvalue="Spring Boot.SpringCloudDobboApiApplication" />
+      <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
+      <item itemvalue="Spring Boot.ShopApplication (1)" />
+      <item itemvalue="Spring Boot.SpringCloudShiroApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShopApplication (1)" />
+        <item itemvalue="JUnit.DemoApplicationTests.test1" />
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
+        <item itemvalue="Application.test2" />
+        <item itemvalue="Application.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.08483106" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b7e50d5-030f-457c-8bc6-87bbdec7f9d3" name="Default Changelist" comment="" />
+      <created>1582600758081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582600758081</updated>
+      <workItem from="1582600763993" duration="283000" />
+      <workItem from="1582856670366" duration="124000" />
+      <workItem from="1590458268299" duration="1991000" />
+      <workItem from="1596676561478" duration="448000" />
+      <workItem from="1596677033224" duration="692000" />
+      <workItem from="1596677855362" duration="44133000" />
+      <workItem from="1597046771489" duration="4605000" />
+      <workItem from="1597051959207" duration="22708000" />
+      <workItem from="1598066753753" duration="2358000" />
+      <workItem from="1601171744111" duration="960000" />
+      <workItem from="1601257843790" duration="165000" />
+      <workItem from="1602222881849" duration="39000" />
+      <workItem from="1602222986477" duration="30000" />
+      <workItem from="1602559002408" duration="447000" />
+      <workItem from="1602645486862" duration="2998000" />
+      <workItem from="1602820649028" duration="3001000" />
+      <workItem from="1603075819855" duration="6037000" />
+      <workItem from="1603852914341" duration="6837000" />
+      <workItem from="1603869176854" duration="8760000" />
+      <workItem from="1604280659763" duration="48590000" />
+      <workItem from="1604473157883" duration="4904000" />
+      <workItem from="1604480650111" duration="105000" />
+      <workItem from="1604480790311" duration="290000" />
+      <workItem from="1604481145439" duration="7466000" />
+    </task>
+    <task id="LOCAL-00001" summary="feign,未成功">
+      <created>1596797171020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596797171020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feign,成功">
+      <created>1597056863253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597056863254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feign,成功">
+      <created>1597056888571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597056888571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feign,成功">
+      <created>1597056913385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597056913385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删除">
+      <created>1597108964353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597108964353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除">
+      <created>1597109066691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597109066691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="未成功dubbo">
+      <created>1597235081159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597235081159</updated>
+    </task>
+    <task id="LOCAL-00008" summary="未成功dubbo">
+      <created>1603864612691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603864612692</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dubbo基础搭建">
+      <created>1604294447230</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604294447230</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加mybaits-plus">
+      <created>1604311573310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604311573310</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dubbo基础搭建">
+      <created>1604366606425</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604366606425</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dubbo-provider+mybatis-plus整合成功">
+      <created>1604370718457</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604370718457</updated>
+    </task>
+    <task id="LOCAL-00013" summary="同一返回格式">
+      <created>1604387703692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604387703692</updated>
+    </task>
+    <task id="LOCAL-00014" summary="同一返回格式+gateway">
+      <created>1604387734727</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604387734727</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Revert &quot;同一返回格式+gateway&quot;&#10;&#10;This reverts commit 7f009557">
+      <created>1604388135221</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604388135221</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Revert &quot;同一返回格式&quot;&#10;&#10;This reverts commit edc4e061">
+      <created>1604388148751</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604388148751</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Revert &quot;同一返回格式&quot;&#10;&#10;This reverts commit edc4e061">
+      <created>1604388867733</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604388867733</updated>
+    </task>
+    <task id="LOCAL-00018" summary="swagger">
+      <created>1604485097638</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604485097638</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feign,未成功" />
+    <MESSAGE value="feign,成功" />
+    <MESSAGE value="删除" />
+    <MESSAGE value="未成功dubbo" />
+    <MESSAGE value="添加mybaits-plus" />
+    <MESSAGE value="dubbo基础搭建" />
+    <MESSAGE value="dubbo-provider+mybatis-plus整合成功" />
+    <MESSAGE value="同一返回格式" />
+    <MESSAGE value="同一返回格式+gateway" />
+    <MESSAGE value="Revert &quot;同一返回格式+gateway&quot;&#10;&#10;This reverts commit 7f009557" />
+    <MESSAGE value="Revert &quot;同一返回格式&quot;&#10;&#10;This reverts commit edc4e061" />
+    <MESSAGE value="swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="47" key="#Notifications" timestamp="1603864078982">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="233" y="47" key="#Notifications/0.0.1280.770@0.0.1280.770" timestamp="1603864078982" />
+    <state x="324" y="104" width="813" height="676" key="#Project_Structure" timestamp="1604556747995">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="324" y="104" width="813" height="676" key="#Project_Structure/0.0.1463.884@0.0.1463.884" timestamp="1604556747995" />
+    <state x="337" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604298218118">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="96" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.769@0.0.1280.769" timestamp="1597043540917" />
+    <state x="337" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.884@0.0.1463.884" timestamp="1604298218118" />
+    <state x="374" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596679154666">
+      <screen x="0" y="0" width="1280" height="769" />
+    </state>
+    <state x="374" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.769@0.0.1280.769" timestamp="1596679154666" />
+    <state x="510" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1604455280662">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="446" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1280.769@0.0.1280.769" timestamp="1597110448177" />
+    <state x="446" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1603873170162" />
+    <state x="510" y="109" key="#com.intellij.ide.util.MemberChooser/0.0.1463.884@0.0.1463.884" timestamp="1604455280662" />
+    <state x="462" y="222" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604298824754">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="462" y="222" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1463.884@0.0.1463.884" timestamp="1604298824754" />
+    <state x="462" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604298896563">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="462" y="192" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.884@0.0.1463.884" timestamp="1604298896563" />
+    <state x="305" y="37" width="1249" height="769" key="CommitChangelistDialog2" timestamp="1604485093771">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="0" y="0" width="1249" height="769" key="CommitChangelistDialog2/0.0.1280.769@0.0.1280.769" timestamp="1597235078522" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1280.770@0.0.1280.770" timestamp="1603864608421" />
+    <state x="305" y="37" key="CommitChangelistDialog2/0.0.1463.884@0.0.1463.884" timestamp="1604485093771" />
+    <state x="481" y="134" key="FileChooserDialogImpl" timestamp="1604298630644">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1603866644545" />
+    <state x="481" y="134" key="FileChooserDialogImpl/0.0.1463.884@0.0.1463.884" timestamp="1604298630644" />
+    <state x="482" y="276" width="708" height="218" key="Github.ShareDialog" timestamp="1596764911633">
+      <screen x="0" y="0" width="1280" height="769" />
+    </state>
+    <state x="482" y="276" width="708" height="218" key="Github.ShareDialog/0.0.1280.769@0.0.1280.769" timestamp="1596764911633" />
+    <state x="12" y="111" key="Github.UntrackedFilesDialog" timestamp="1596764925655">
+      <screen x="0" y="0" width="1280" height="769" />
+    </state>
+    <state x="12" y="111" key="Github.UntrackedFilesDialog/0.0.1280.769@0.0.1280.769" timestamp="1596764925655" />
+    <state width="1272" height="248" key="GridCell.Tab.0.bottom" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.0.bottom/0.0.1280.769@0.0.1280.769" timestamp="1597890067863" />
+    <state width="1238" height="151" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1603874909697" />
+    <state width="1272" height="248" key="GridCell.Tab.0.bottom/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state width="1272" height="248" key="GridCell.Tab.0.center" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.0.center/0.0.1280.769@0.0.1280.769" timestamp="1597890067861" />
+    <state width="1238" height="151" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1603874909697" />
+    <state width="1272" height="248" key="GridCell.Tab.0.center/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state width="1272" height="248" key="GridCell.Tab.0.left" timestamp="1604485012255">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.0.left/0.0.1280.769@0.0.1280.769" timestamp="1597890067860" />
+    <state width="1238" height="151" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1603874909696" />
+    <state width="1272" height="248" key="GridCell.Tab.0.left/0.0.1463.884@0.0.1463.884" timestamp="1604485012255" />
+    <state width="1272" height="248" key="GridCell.Tab.0.right" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.0.right/0.0.1280.769@0.0.1280.769" timestamp="1597890067862" />
+    <state width="1238" height="151" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1603874909697" />
+    <state width="1272" height="248" key="GridCell.Tab.0.right/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state width="1272" height="248" key="GridCell.Tab.1.bottom" timestamp="1604485012257">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.1.bottom/0.0.1280.769@0.0.1280.769" timestamp="1597890067865" />
+    <state width="1272" height="248" key="GridCell.Tab.1.bottom/0.0.1463.884@0.0.1463.884" timestamp="1604485012257" />
+    <state width="1272" height="248" key="GridCell.Tab.1.center" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.1.center/0.0.1280.769@0.0.1280.769" timestamp="1597890067864" />
+    <state width="1272" height="248" key="GridCell.Tab.1.center/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state width="1272" height="248" key="GridCell.Tab.1.left" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.1.left/0.0.1280.769@0.0.1280.769" timestamp="1597890067863" />
+    <state width="1272" height="248" key="GridCell.Tab.1.left/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state width="1272" height="248" key="GridCell.Tab.1.right" timestamp="1604485012256">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state width="1093" height="77" key="GridCell.Tab.1.right/0.0.1280.769@0.0.1280.769" timestamp="1597890067864" />
+    <state width="1272" height="248" key="GridCell.Tab.1.right/0.0.1463.884@0.0.1463.884" timestamp="1604485012256" />
+    <state x="373" y="155" key="RollbackChangesDialog" timestamp="1604388260919">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="373" y="155" key="RollbackChangesDialog/0.0.1463.884@0.0.1463.884" timestamp="1604388260919" />
+    <state x="279" y="0" key="SettingsEditor" timestamp="1604541531991">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="269" y="0" key="SettingsEditor/0.0.1280.769@0.0.1280.769" timestamp="1597051922320" />
+    <state x="244" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1603084931725" />
+    <state x="279" y="0" key="SettingsEditor/0.0.1463.884@0.0.1463.884" timestamp="1604541531991" />
+    <state width="525" height="446" key="SwitcherDM" timestamp="1602645731884">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="525" height="446" key="SwitcherDM/0.0.1280.770@0.0.1280.770" timestamp="1602645731884" />
+    <state x="578" y="363" key="VCS.ChangelistChooser" timestamp="1604388735853">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="578" y="363" key="VCS.ChangelistChooser/0.0.1463.884@0.0.1463.884" timestamp="1604388735853" />
+    <state x="266" y="139" width="1108" height="665" key="Vcs.Push.Dialog.v2" timestamp="1604542454045">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="233" y="121" key="Vcs.Push.Dialog.v2/0.0.1280.770@0.0.1280.770" timestamp="1603864626388" />
+    <state x="266" y="139" width="1108" height="665" key="Vcs.Push.Dialog.v2/0.0.1463.884@0.0.1463.884" timestamp="1604542454045" />
+    <state x="439" y="163" key="chooseDestDirectoryDialog" timestamp="1597112304918">
+      <screen x="0" y="0" width="1280" height="769" />
+    </state>
+    <state x="439" y="163" key="chooseDestDirectoryDialog/0.0.1280.769@0.0.1280.769" timestamp="1597112304918" />
+    <state x="499" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604556979814">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="437" y="302" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.769@0.0.1280.769" timestamp="1597108905887" />
+    <state x="437" y="302" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.770@0.0.1280.770" timestamp="1603864021728" />
+    <state x="499" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.884@0.0.1463.884" timestamp="1604556979814" />
+    <state x="254" y="85" width="773" height="600" key="find.popup" timestamp="1597046588127">
+      <screen x="0" y="0" width="1280" height="769" />
+    </state>
+    <state x="254" y="85" width="773" height="600" key="find.popup/0.0.1280.769@0.0.1280.769" timestamp="1597046588127" />
+    <state x="401" y="244" key="git4idea.merge.GitPullDialog" timestamp="1604390181028">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="401" y="244" key="git4idea.merge.GitPullDialog/0.0.1463.884@0.0.1463.884" timestamp="1604390181028" />
+    <state x="203" y="101" key="new project wizard" timestamp="1604556255979">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="56" y="32" key="new project wizard/0.0.1280.769@0.0.1280.769" timestamp="1597222660256" />
+    <state x="14" y="32" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1603864992729" />
+    <state x="203" y="101" key="new project wizard/0.0.1463.884@0.0.1463.884" timestamp="1604556255979" />
+    <state x="355" y="104" width="769" height="780" key="search.everywhere.popup" timestamp="1604473716705">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="309" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1280.769@0.0.1280.769" timestamp="1596680724312" />
+    <state x="311" y="91" width="672" height="679" key="search.everywhere.popup/0.0.1280.770@0.0.1280.770" timestamp="1603088354401" />
+    <state x="355" y="104" width="769" height="780" key="search.everywhere.popup/0.0.1463.884@0.0.1463.884" timestamp="1604473716705" />
+  </component>
+</project>

@@ -17,7 +17,7 @@ import javax.management.Query;
  * @date ：2020/8/11 9:45
  * @description：通过 `org.apache.dubbo` 包下的 `@Service` 注解将服务暴露出去
  */
-@SuppressWarnings("all")
+
 @Service(version = "1.0.0")
 public class dubboServiceImpl implements IDubboService {
     @Value("${spring.application.name}")

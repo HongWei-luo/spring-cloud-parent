@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-pay-consumer" />
+        <module name="spring-cloud-dubbo-provider" />
+        <module name="spring-cloud-test" />
+        <module name="spring-cloud-shiro" />
+        <module name="spring-cloud-pay-provider" />
+        <module name="spring-cloud-data" />
+        <module name="spring-cloud-dubbo-consumer" />
+        <module name="spring-cloud-dobbo-api" />
+        <module name="spring-cloud-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-spring-cloud-alibaba-provider" target="1.8" />
+      <module name="spring-cloud-consumer-parent" target="1.8" />
+      <module name="spring-cloud-data" target="1.8" />
+      <module name="spring-cloud-dependencies" target="1.8" />
+      <module name="spring-cloud-dobbo-api" target="1.8" />
+      <module name="spring-cloud-dubbo-consumer" target="1.8" />
+      <module name="spring-cloud-dubbo-provider" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="spring-cloud-pay-consumer" target="1.8" />
+      <module name="spring-cloud-pay-provider" target="1.8" />
+      <module name="spring-cloud-provider-parent" target="1.8" />
+      <module name="spring-cloud-shiro" target="1.8" />
+      <module name="spring-cloud-test" target="1.8" />
+      <module name="spring-dubbo-consumer" target="1.8" />
+      <module name="spring-dubbo-provider-api" target="1.8" />
+      <module name="spring-dubbo-provider-service" target="1.8" />
+      <module name="spring-security-oauth-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-spring-cloud-alibaba-provider" options="-parameters" />
+      <module name="spring-cloud-consumer-parent" options="-parameters" />
+      <module name="spring-cloud-data" options="-parameters" />
+      <module name="spring-cloud-dobbo-api" options="-parameters" />
+      <module name="spring-cloud-dubbo-consumer" options="-parameters" />
+      <module name="spring-cloud-dubbo-provider" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+      <module name="spring-cloud-pay-consumer" options="-parameters" />
+      <module name="spring-cloud-pay-provider" options="-parameters" />
+      <module name="spring-cloud-provider-parent" options="-parameters" />
+      <module name="spring-cloud-shiro" options="-parameters" />
+      <module name="spring-cloud-test" options="-parameters" />
+      <module name="spring-dubbo-consumer" options="-parameters" />
+      <module name="spring-dubbo-provider-api" options="-parameters" />
+      <module name="spring-dubbo-provider-service" options="-parameters" />
+      <module name="spring-security-oauth-server" options="-parameters" />
+    </option>
+  </component>
+</project>

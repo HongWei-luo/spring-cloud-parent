@@ -19,7 +19,6 @@ import java.net.UnknownHostException;
 @EnableDiscoveryClient
 @EnableDubbo
 @Slf4j
-@EnableSwagger2
 public class SpringCloudDubboConsumerApplication {
     public static void main(String[] args) throws UnknownHostException {
         ConfigurableApplicationContext application = SpringApplication.run(SpringCloudDubboConsumerApplication.class, args);

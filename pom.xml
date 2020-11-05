@@ -25,6 +25,7 @@
         <module>spring-cloud-dubbo-consumer</module>
         <module>spring-cloud-data</module>
         <module>spring-cloud-gateway</module>
+        <module>spring-cloud-shiro</module>
     </modules>
 
     <properties>
