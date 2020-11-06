@@ -3,15 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.lhw</groupId>
+		<groupId>com.wei</groupId>
 		<artifactId>spring-cloud-alibaba</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wei</groupId>
-	<artifactId>spring-cloud-dobbo-api</artifactId>
+	<artifactId>spring-cloud-dubbo-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-dobbo-api</name>
+	<name>spring-cloud-dubbo-api</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 

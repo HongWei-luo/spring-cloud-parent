@@ -6,13 +6,13 @@
         <groupId>com.wei</groupId>
         <artifactId>spring-cloud-alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wei</groupId>
-    <artifactId>spring-cloud-dubbo-consumer</artifactId>
+    <artifactId>spring-cloud-shiro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-dubbo-consumer</name>
-    <description>Demo project for spring-cloud-dubbo-consumer</description>
+    <name>spring-cloud-shiro</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,16 +22,17 @@
         <!-- Spring Boot Begin -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- Spring Boot End -->
 
@@ -40,6 +41,7 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
@@ -58,7 +60,11 @@
         </dependency>
         <!-- Apache Dubbo End -->
 
-        <!--nacos-->
+        <!-- Projects Begin -->
+
+
+
+        <!-- nacos Begin -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -70,13 +76,6 @@
         </dependency>
         <!-- nacos End -->
 
-        <!--日志 start-->
-        <!--可以引入日志 @Slf4j注解-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <!--日志end-->
 
         <!-- Projects Begin -->
         <dependency>
@@ -85,21 +84,81 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- Projects End -->
+        <!-- Projects End -->
 
-        <!--swagger2-->
+        <!-- 数据库连接-->
+        <!-- 主要增加 HikariCP 依赖 -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>${hikaricp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+            <exclusions>
+                <!-- 排除 tomcat-jdbc 以使用 HikariCP -->
+                <exclusion>
+                    <groupId>org.apache.tomcat</groupId>
+                    <artifactId>tomcat-jdbc</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- MySQL 驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+        <!-- 数据库连接-->
+        <!-- mybatisPlus 核心库 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+
+        <!--swagger-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
             <version>2.9.2</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
+            <scope>compile</scope>
         </dependency>
-        <!--swagger2-->
+        <!--swagger-->
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--lombok-->
+
+        <!-- shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+
+        <!--引入实体类-->
+        <dependency>
+            <groupId>com.wei</groupId>
+            <artifactId>spring-cloud-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
+
 
     <build>
         <plugins>

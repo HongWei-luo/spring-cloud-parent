@@ -1,5 +1,7 @@
-package com.wei.shop.domain;
+package com.wei.shop.extend;
 
+import com.wei.shop.domain.Role;
+import com.wei.shop.domain.User;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -8,7 +10,7 @@ import java.util.List;
 
 @ApiModel(value = "com.wei.shop.domain.User")
 @Data
-public class User {
+public class UserExtend extends User {
     private static final long serialVersionUID = 8905103293894332090L;
     @ApiModelProperty(value = "null")
     private Integer id;
