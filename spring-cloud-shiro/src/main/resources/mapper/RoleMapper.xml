@@ -24,8 +24,9 @@
 
   <sql id="Base_Column_List">
     <!--@mbg.generated-->
-    id, role_name
+    id, role_name, permission_id
   </sql>
+
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="RoleAndPermissionResultMap">
     <!--@mbg.generated-->
     select 

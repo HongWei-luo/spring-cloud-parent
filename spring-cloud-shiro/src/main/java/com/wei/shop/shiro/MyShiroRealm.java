@@ -1,8 +1,11 @@
 package com.wei.shop.shiro;
 
+import com.wei.shop.dao.PermissionDao;
+import com.wei.shop.dao.RoleDao;
 import com.wei.shop.domain.Permission;
 import com.wei.shop.domain.Role;
 import com.wei.shop.domain.User;
+import com.wei.shop.domain.UserRole;
 import com.wei.shop.service.LoginService;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -12,6 +15,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import sun.rmi.runtime.NewThreadAction;
 
 import javax.annotation.Resource;
 
@@ -24,22 +28,26 @@ public class MyShiroRealm extends AuthorizingRealm {
 
     @Resource
     private LoginService loginService;
+    @Resource
+    private RoleDao roleDao;
+    @Resource
+    private PermissionDao permissionDao;
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
-
+        Role role = new Role();
         // 获取登录用户名
         String name = (String) principalCollection.getPrimaryPrincipal();
         // 查询用户名称
         User user = loginService.findByName(name);
         // 添加角色和权限
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-        for (Role role : user.getRoles()) {
+        for (UserRole userRole :user.getUserRole()) {
             // 添加角色
+            role = roleDao.selectByPrimaryKey(userRole.getRoleId());
             simpleAuthorizationInfo.addRole(role.getRoleName());
-            for (Permission permission : role.getPermissions()) {
-                // 添加权限
-                simpleAuthorizationInfo.addStringPermission(permission.getPermission());
-            }
+            Permission permission = permissionDao.selectByPrimaryKey(role.getPermissionId());
+            // 添加权限
+            simpleAuthorizationInfo.addStringPermission(permission.getPermission());
         }
         return simpleAuthorizationInfo;
     }

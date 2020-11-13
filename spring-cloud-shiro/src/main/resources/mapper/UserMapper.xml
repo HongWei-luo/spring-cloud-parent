@@ -13,8 +13,8 @@
     <result column="email" jdbcType="VARCHAR" property="email" />
     <result column="address" jdbcType="VARCHAR" property="address" />
     <result column="is_delete" jdbcType="TINYINT" property="isDelete" />
-    <result column="role_id" jdbcType="VARCHAR" property="roleId" />
-  </resultMap>
+   </resultMap>
+
   <resultMap id="UserAndRoleResultMap" type="com.wei.shop.domain.User">
     <!--@mbg.generated-->
     <!--@Table user-->
@@ -27,13 +27,15 @@
     <result column="email" jdbcType="VARCHAR" property="email" />
     <result column="address" jdbcType="VARCHAR" property="address" />
     <result column="is_delete" jdbcType="TINYINT" property="isDelete" />
-    <result column="role_id" jdbcType="VARCHAR" property="roleId" />
-    <collection property="roles" ofType="com.wei.shop.domain.Role" column="role_id"
-                select="com.wei.shop.dao.RoleDao.selectByPrimaryKey"/>
+        <!--<collection property="roles" ofType="com.wei.shop.domain.Role" column=" "
+                select="com.wei.shop.dao.RoleDao.selectByPrimaryKey"/>-->
+    <collection property="userRole" ofType="com.wei.shop.domain.UserRole" column="id"
+                select="com.wei.shop.dao.UserRoleMapper.selectByUserId"/>
   </resultMap>
+
   <sql id="Base_Column_List">
     <!--@mbg.generated-->
-    id, username, `password`, sex, hobbys, phone, email, address, is_delete, role_id
+    id, username, `password`, sex, hobbys, phone, email, address, is_delete,  
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     <!--@mbg.generated-->
@@ -51,11 +53,11 @@
     <!--@mbg.generated-->
     insert into user (username, `password`, sex, 
       hobbys, phone, email, 
-      address, is_delete, role_id
+      address, is_delete,  
       )
     values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, 
       #{hobbys,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
-      #{address,jdbcType=VARCHAR}, #{isDelete,jdbcType=TINYINT}, #{roleId,jdbcType=VARCHAR}
+      #{address,jdbcType=VARCHAR}, #{isDelete,jdbcType=TINYINT}
       )
   </insert>
   <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.wei.shop.domain.User" useGeneratedKeys="true">
@@ -86,9 +88,6 @@
       <if test="isDelete != null">
         is_delete,
       </if>
-      <if test="roleId != null">
-        role_id,
-      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="username != null">
@@ -114,9 +113,6 @@
       </if>
       <if test="isDelete != null">
         #{isDelete,jdbcType=TINYINT},
-      </if>
-      <if test="roleId != null">
-        #{roleId,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -148,9 +144,7 @@
       <if test="isDelete != null">
         is_delete = #{isDelete,jdbcType=TINYINT},
       </if>
-      <if test="roleId != null">
-        role_id = #{roleId,jdbcType=VARCHAR},
-      </if>
+
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
@@ -165,13 +159,10 @@
       email = #{email,jdbcType=VARCHAR},
       address = #{address,jdbcType=VARCHAR},
       is_delete = #{isDelete,jdbcType=TINYINT},
-      role_id = #{roleId,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 
-
-
   <select id="findByName" resultMap="UserAndRoleResultMap">
-    SELECT  id,username,password,sex,hobbys,phone,email,address,is_delete,role_id  FROM user     WHERE username = #{name,jdbcType=VARCHAR}
+    SELECT  id,username,password,sex,hobbys,phone,email,address,is_delete  FROM user WHERE username = #{name,jdbcType=VARCHAR}
   </select>
 </mapper>

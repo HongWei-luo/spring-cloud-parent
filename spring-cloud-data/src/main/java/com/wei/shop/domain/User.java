@@ -58,6 +58,7 @@ public class User {
     @ApiModelProperty(value = "角色id")
     private String roleId;
 
+    private List<UserRole> userRole;
 
-    private List<Role> roles;
+
 }
