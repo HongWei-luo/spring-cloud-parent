@@ -6,7 +6,7 @@
         <groupId>com.wei</groupId>
         <artifactId>spring-cloud-alibaba</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wei</groupId>
     <artifactId>spring-cloud-shiro</artifactId>
